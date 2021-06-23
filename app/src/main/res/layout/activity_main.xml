@@ -9,7 +9,7 @@
     <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="159dp"
+            android:layout_height="100dp"
             android:text="Hello World!"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -26,5 +26,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
     />
+    <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp" app:srcCompat="@drawable/ic_launcher_background"
+            android:id="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/twID" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
